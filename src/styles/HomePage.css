@@ -1,0 +1,53 @@
+.home-page {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.home-page h1 {
+  font-size: 2.5em;
+  margin-bottom: 40px;
+  color: #2c3e50;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 40px 0;
+}
+
+.feature-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  margin: 15px;
+  width: 280px;
+  transition: transform 0.3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.feature-card h2 {
+  color: #3498db;
+  margin-top: 0;
+}
+
+.cta-button {
+  display: inline-block;
+  background: #2ecc71;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+  transition: background 0.3s;
+  margin-top: 20px;
+}
+
+.cta-button:hover {
+  background: #27ae60;
+}
